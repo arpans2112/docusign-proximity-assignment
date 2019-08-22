@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="annotationsTest" verbose="1" >
+    <test name="annotations" >
+        <classes>
+            <class name="unittests.FileUtilsTest" />
+            <class name="unittests.ProximitySearchAppTest" />
+            <class name="unittests.ProximitySearchAlgoTest" />
+        </classes>
+    </test>
+</suite>
