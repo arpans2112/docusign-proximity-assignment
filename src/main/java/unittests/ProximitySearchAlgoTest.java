@@ -48,5 +48,15 @@ public class ProximitySearchAlgoTest {
 
     }
 
+    @Test
+    public void checkValidKeywordsCountswithInput4() throws IOException {
+
+        Assert.assertEquals(proximitySearchAlgo.proximitySearch("The","canal",3, FileUtils.readFileAsString(System.getProperty("user.dir")+"\\src\\main\\resources\\data\\input1.txt"),true),0,"Validating Keywords Counts");
+
+    }
+
+
+
+
 
 }
